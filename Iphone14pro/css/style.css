@@ -270,12 +270,16 @@ ul{
     }
 
     .new{
-        padding: 70px 0 160px;
+        padding: 70px 0 90px;
     }
 
     .new-texts b {
         font-size: 19px;
         line-height: 24px;
+    }
+
+    .color {
+        padding: 0 0 90px;
     }
 }
 
@@ -298,7 +302,7 @@ ul{
     }
 
     .new{
-        padding: 50px 0 160px;
+        padding: 50px 0 70px;
     }
 
     .new-texts b {
@@ -306,9 +310,12 @@ ul{
         line-height: 22px;
     }
 
-    .color-variant,
-    .color-info img{
+    .color-variant{
         width: 100%;
+    }
+
+    .color-info img{
+        width: 65%;
     }
 }
 
