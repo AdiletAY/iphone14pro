@@ -1,12 +1,12 @@
 const btn = document.querySelector('.menu-btn');
 const nav = document.querySelector('.nav');
-const submit_btn = document.querySelector('.submit');
+const contact_btn = document.querySelector('.contact-btn');
 
 btn.addEventListener('click', ()=>{
     nav.classList.toggle('menu-open');
 });
 
-submit_btn.addEventListener('click', ()=>{
+contact_btn.addEventListener('click', ()=>{
     let input_name = document.querySelector('.contact-input-name').value;
     let input_phone = document.querySelector('.contact-input-email').value;
     if(input_name != '' && input_phone != ''){
