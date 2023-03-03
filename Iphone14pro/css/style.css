@@ -84,7 +84,7 @@ ul{
     text-transform: uppercase;
     color: #fff;
     background-color: #490E84;
-    padding: 22px 117px 19px 117px;
+    padding: 22px 117px 19px;
     border-radius: 30px;
 }
 
@@ -241,5 +241,18 @@ ul{
 @media (max-width: 1200px){
     .headline-img{
         max-width: 100%;
+    }
+}
+
+@media (max-width: 560px){
+    .title{
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    .headline-btn{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 22px 90px 19px;
     }
 }
