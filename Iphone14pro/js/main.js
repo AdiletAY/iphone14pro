@@ -17,6 +17,9 @@ contact_btn.addEventListener('click', ()=>{
         alert("Вы не ввели или ввели неправильно свои данные! Попробуйте еще раз!");
         console.log("Вы не ввели или ввели неправильно свои данные! Попробуйте еще раз!");
     }
+
+    document.querySelector('.contact-input-name').value = "";
+    document.querySelector('.contact-input-email').value = "";
 });
 
 
